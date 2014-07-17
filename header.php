@@ -3,7 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" media="all" href="css/bootstrap.css" />
-<title>Menu</title>
+<link rel="stylesheet" media="all" href="css/style.css"/>
+<title>Site simples em php</title>
 </head>
 
 <body>
@@ -11,7 +12,7 @@
     	<div class="container">
             <nav>
                 <ul class="nav nav-pills">
-                    <li class="active"><a href="index.php">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="index.php?page=empresa">Empresa</a></li>
                     <li><a href="index.php?page=produtos">Produtos</a></li>
                     <li><a href="index.php?page=servicos">Serviços</a></li>
