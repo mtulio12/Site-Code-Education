@@ -1,12 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
-</head>
+<h1>Contato</h1>
 
-<body>
-	<?php include('menu.php');?>
-	<h1>Contato</h1>
-</body>
-</html>
+<form role="form">
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="Nome">
+  </div>	
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email">
+  </div>
+   <div class="form-group">
+    <label for="assunto">Assunto</label>
+    <input type="text" class="form-control" id="assunto" placeholder="Assunto">
+  </div>	
+  <div class="form-group">
+    <label for="mensagem">Assunto</label>
+    <textarea class="form-control" id="mensagem" placeholder="mensagem" rows="3"></textarea>
+  </div>	
+
+  <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
