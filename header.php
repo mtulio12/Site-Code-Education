@@ -7,12 +7,18 @@
 </head>
 
 <body>
-	<ul>
-    	<li><a href="index.php">Home</a></li>
-        <li><a href="">Empresa</a></li>
-        <li><a href="">Produtos</a></li>
-        <li><a href="">Serviços</a></li>
-        <li><a href="contato.php">Contato</a></li>     
-    </ul>
+	<header>
+    	<div class="container">
+            <nav>
+                <ul class="nav nav-pills">
+                    <li class="active"><a href="index.php">Home</a></li>
+                    <li><a href="index.php?page=empresa">Empresa</a></li>
+                    <li><a href="index.php?page=produtos">Produtos</a></li>
+                    <li><a href="index.php?page=servicos">Serviços</a></li>
+                    <li><a href="index.php?page=contato">Contato</a></li>     
+                </ul>
+            </nav>
+       </div>
+    </header>
 </body>
 </html>
