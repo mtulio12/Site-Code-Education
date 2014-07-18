@@ -1,6 +1,6 @@
 <h1>Contato</h1>
 
-<?php if(!$_POST["submit"]):?>
+<?php if(!isset($_POST["submit"])):?>
 
 <form role="form" action="index.php?page=contato" method="post">
   <div class="form-group">
