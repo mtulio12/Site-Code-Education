@@ -6,7 +6,11 @@
 <link rel="stylesheet" media="all" href="css/style.css"/>
 <title>Site simples em php</title>
 </head>
+<?php
+ini_set('display_errors', true);
 
+error_reporting(E_ALL | E_STRICT);
+?>
 <body>
 	<header>
     	<div class="container">
