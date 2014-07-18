@@ -5,9 +5,10 @@
 		if(!isset($_GET["page"]))
 			require_once('home.php');
 
-        else
+        elseif(file_exists($_GET['page'].".php"))
             require_once($_GET['page'].".php");
-
+        else
+            echo "<h1>Pagina não encontrada</h1>";
 	?>
 </div>
 
