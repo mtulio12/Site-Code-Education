@@ -16,11 +16,11 @@ error_reporting(E_ALL | E_STRICT);
     	<div class="container">
             <nav>
                 <ul class="nav nav-pills">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?page=empresa">Empresa</a></li>
-                    <li><a href="index.php?page=produtos">Produtos</a></li>
-                    <li><a href="index.php?page=servicos">Serviços</a></li>
-                    <li><a href="index.php?page=contato">Contato</a></li>     
+                    <li><a href="/">Home</a></li>
+                    <li><a href="empresa">Empresa</a></li>
+                    <li><a href="produtos">Produtos</a></li>
+                    <li><a href="servicos">Serviços</a></li>
+                    <li><a href="contato">Contato</a></li>
                 </ul>
             </nav>
        </div>
