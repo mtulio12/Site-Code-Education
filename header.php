@@ -8,7 +8,6 @@
 </head>
 <?php
 ini_set('display_errors', true);
-
 error_reporting(E_ALL | E_STRICT);
 ?>
 <body>
@@ -25,5 +24,3 @@ error_reporting(E_ALL | E_STRICT);
             </nav>
        </div>
     </header>
-</body>
-</html>
