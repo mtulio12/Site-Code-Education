@@ -2,7 +2,7 @@
 
 <?php if(!isset($_POST["submit"])):?>
 
-<form role="form" action="index.php?page=contato" method="post">
+<form role="form" action="contato" method="post">
   <div class="form-group">
     <label for="nome">Nome</label>
     <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required="required">
